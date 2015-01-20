@@ -1,0 +1,14 @@
+Chess AI
+
+The basis for the Artificial Intelligence in the game of chess is the minimax algorithm. This algorithm focuses on maximizing a score or value for the AI while minimizing the maximum score for the opposing player, assuming that the opposing player will choose to make the move that will maximize his or her score. This algorithm computes the best move for the current state by using a recursive computation of the minimax values of each of the successor states. Once the recursion has reached the leaves of the tree or passed a cutoff test, the minimax values are backed up the tree as the recursion unwinds. Minimax search performs a depth-first exploration of the game tree and given a tree with a maximum depth of n and k possible moves at each point, the algorithm has a O(k^n) time complexity.
+
+The two different mini-max search implemented are:
+
+Depth-limited Minimax Search
+Iterative Deepening Minimax Search
+
+To reduce the number of nodes that the minimax algorithm needs to search through I used Alpha-Beta Pruning and a Transposition Table
+
+Robin Wang
+
+*I used the Chesspresso library to generate the chess board and move the pieces.
