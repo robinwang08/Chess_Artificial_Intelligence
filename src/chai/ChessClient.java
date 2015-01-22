@@ -24,7 +24,7 @@ public class ChessClient extends Application {
 
 	private static final int PIXELS_PER_SQUARE = 64;
 	private static final String welcomeMessage = 
-			"Welcome to CS 76 chess.  Moves can be made using algebraic notation;"
+			"Chess AI:  Moves can be made using algebraic notation;"
 			+ " for example the command c2c3 would move the piece at c2 to c3.  \n";
 		
 	
